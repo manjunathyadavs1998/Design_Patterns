@@ -1,0 +1,54 @@
+System Design:-
+    Application Development:-
+            1.Requirement Gathering
+            2.Scope
+            3.MVP(Minimal Viable Product)
+            4.Software development
+    Web Crawler:-
+         Software that crawls through data of each website and provide the data
+         Uses Depth First Search Algorithm
+    Google Search:
+        Download all content of all the websites
+        Storage: 1.87 Billion Web pages=>100*2B=200B
+        size of one web page=100KB
+        Total Size=100*2B=100*10^3*200B=2B*10^7 Bytes
+        Total size=~20PetaBytes
+        Required around 20000 machines of 1TB
+
+        Parameters to consider for any project:
+            -Requirement gathering
+            -Scoping
+            -Estimation of data
+                compute
+                storage
+                network
+            -Breaking the bigger problems into smaller
+            -Implementation of each component
+            -Testing
+            -Deployment
+
+        Low Level Design:-
+            -Object Orientated principles
+            -Design Principles(SOLID)
+            -GOF Design Patterns
+
+        Object Orientated Programming:-
+            Object:- State + Behaviour(Instance of classes)
+            Class :- Template + Blueprint Eg:-Class Person
+
+        Encapsulation:-
+            Binding state and behaviour together.
+            Hiding the inner implementation of business access specifier using setters and getters
+
+        Inheritance:-
+            Extending from the parent class
+            Extends class
+            implement the interface
+            super is used to invoke parent methods
+
+
+
+
+
+
+
