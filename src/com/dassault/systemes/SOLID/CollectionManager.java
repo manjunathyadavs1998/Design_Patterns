@@ -1,21 +1,35 @@
-package src.com.dassault.systemes.SOLID;
-
 import java.util.*;
 
 public class CollectionManager {
 
+    /**
+     * Adds three predefined integers (10, 20, 30) to the provided list.
+     *
+     * @param list A List of integers where the numbers will be added.
+     */
     public void addNumbers(List<Integer> list) {
         list.add(10);
         list.add(20);
         list.add(30);
     }
 
+    /**
+     * Prints all the elements of the provided list to the console.
+     *
+     * @param list A List of integers whose elements will be printed.
+     */
     public void printNumbers(List<Integer> list) {
         for (Integer number : list) {
             System.out.println(number);
         }
     }
 
+    /**
+     * Main method to demonstrate the usage of CollectionManager.
+     * It creates instances of ArrayList and LinkedList, adds numbers to them, and prints them.
+     *
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
         CollectionManager manager = new CollectionManager();
 
@@ -30,4 +44,3 @@ public class CollectionManager {
         manager.printNumbers(list2);
     }
 }
-
