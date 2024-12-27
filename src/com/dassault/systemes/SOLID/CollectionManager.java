@@ -1,3 +1,5 @@
+package src.com.dassault.systemes.SOLID;
+
 import java.util.*;
 
 public class CollectionManager {
