@@ -45,6 +45,18 @@ System Design:-
             Extends class
             implement the interface
             super is used to invoke parent methods
+    What is a Deadlock?
+        A deadlock is a situation in concurrent programming where two or more threads are blocked indefinitely because they are each waiting for resources held by the other(s). In other words, each thread is waiting for a lock that another thread holds, creating a cycle of dependencies that can't be resolved.
+
+        A classic example of a deadlock occurs when two threads have acquired partial locks and then try to acquire locks that the other thread holds. If each thread is waiting on the other to release the lock, neither thread will be able to proceed, and the system will be in a deadlock state.
+
+        Conditions for Deadlock
+            There are four necessary conditions for a deadlock to occur, often referred to as the Coffman conditions:
+
+        Mutual Exclusion: At least one resource is held in a non-shareable mode, meaning only one thread can use the resource at any given time.
+        Hold and Wait: A thread holding at least one resource is waiting to acquire additional resources that are currently being held by other threads.
+        No Preemption: Resources cannot be forcibly taken from threads holding them; they must be released voluntarily.
+        Circular Wait: A set of threads are waiting for each other in a circular chain. For example, thread A waits for thread B to release resource 2, thread B waits for thread C to release resource 3, and thread C waits for thread A to release resource 1.
 
 
 
