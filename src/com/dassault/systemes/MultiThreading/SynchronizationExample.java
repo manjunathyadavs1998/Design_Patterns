@@ -76,7 +76,7 @@ public class SynchronizationExample {
         t1.start();
         t2.start();
 
-
+        System.out.println();
         System.out.println("Using sync method");
         BankAccount2 account1 = new BankAccount2();
 
